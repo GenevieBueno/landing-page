@@ -83,8 +83,13 @@ form [type="submit"]{
     width:50%;
     background-color: rgb(132,14,201);
     color:white;
- 
+    font-weight:900;
 }
+
+form [type="submit"]:hover{
+    cursor:pointer;
+}
+
 
 input{
     margin-top: 20px;
